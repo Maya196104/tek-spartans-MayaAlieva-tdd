@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 
 public class MyFirstTest {
 
+    public void runBeforeTestClass(){
+        System.out.println("This Is Only 1 Time per Test Class");
+    }
 
     @BeforeMethod
     public void runBeforeTest(){
