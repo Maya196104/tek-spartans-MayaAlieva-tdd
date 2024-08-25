@@ -35,6 +35,5 @@ public class MoreAboutDataTable {
     public void someTestingCustomObject(Person person) {
 
         Assert.assertEquals(person.getName().length(), person.getLength(), "Name length should match");
-
     }
 }
